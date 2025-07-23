@@ -180,8 +180,8 @@
 
             bindings = <
 &kp F1     &kp F2           &kp F3                &kp F4                 &kp F5             &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp COLON  &kp EXCLAMATION  &kp SLASH             &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &trans  &trans  &trans  &trans  &kp SEMI
-&kp SEMI   &kp QUESTION     &kp NON_US_BACKSLASH  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &trans  &trans  &trans  &trans  &trans
+&kp JP_COLON   &kp EXCLAMATION  &kp SLASH   &kp JP_LPAREN  &kp JP_LBRACKET     &kp JP_UNDERSCORE  &trans  &trans  &trans  &kp SEMI
+&kp SEMICOLON  &kt QUESTION     &kp JP_YEN  &kp JP_RPAREN  &kp JP_RBRACKET  &sk JP_AT   &trans  &trans  &trans  &trans
 &trans     &trans                                 &trans                 &trans             &trans  &trans          &trans  &trans
             >;
         };
@@ -190,8 +190,8 @@
             display-name = "tertiary_layer";
             bindings = <
 &kp TAB     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS              &kp LC(LG(LEFT))  &kp LG(TAB)  &mkp MB3  &kp END   &kp LC(LG(RIGHT))
-&kp CARET   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp RIGHT_PARENTHESIS  &mkp MB4          &mkp MB1     &kp DOWN  &mkp MB2  &mkp MB5
-&kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACE        &kp LC(SPACE)     &kp LEFT     &kp DOWN  &kp UP    &kp RIGHT_SHIFT
+&kp JP_ASTERISK          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp JP_PLUS  &mkp MB4          &mkp MB1     &kp DOWN  &mkp MB2  &mkp MB5
+&kp PERIOD  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL         &kp LC(SPACE)     &kp LEFT     &kp DOWN  &kp UP    &kp RIGHT_SHIFT
 &trans      &trans                      &trans        &trans                 &trans            &trans                 &trans    &trans
             >;
 

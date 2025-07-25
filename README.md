@@ -4,3 +4,4 @@
 # Fix advertisement auto-start
 # Add detailed advertisement logging
 # Trigger build with restored LVGL dependency Fri Jul 25 17:36:43 JST 2025
+# Trigger build with enhanced BLE debugging Fri Jul 25 19:28:26 JST 2025

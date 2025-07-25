@@ -10,3 +10,4 @@
 # Trigger build with disabled advertising to restore keyboard visibility Fri Jul 25 22:00:21 JST 2025
 # Trigger build with ZMK advertising extension approach Fri Jul 25 22:10:33 JST 2025
 # Trigger build with stop-restart advertising approach Fri Jul 25 22:15:47 JST 2025
+# Trigger build with complete custom advertising and 31-byte limit Fri Jul 25 22:25:18 JST 2025

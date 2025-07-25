@@ -1,0 +1,4 @@
+osource "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk-rgbled-widget/boards/shields/*/Kconfig.shield"
+osource "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module/boards/shields/*/Kconfig.shield"
+osource "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk/app/boards/shields/*/Kconfig.shield"
+osource "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/boards/shields/*/Kconfig.shield"

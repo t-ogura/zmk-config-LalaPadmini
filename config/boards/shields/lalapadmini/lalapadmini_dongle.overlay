@@ -1,0 +1,19 @@
+#include "lalapadmini.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &mock_kscan;
+    };
+
+    mock_kscan: kscan_1 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+};
+
+// Disable the original kscan0 which lacks col-gpios
+&kscan0 {
+    status = "disabled";
+};

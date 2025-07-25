@@ -3,7 +3,6 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &physical_layout0;  // Use bare-bones layout for dongle
     };
 
     mock_kscan: kscan_1 {
@@ -11,13 +10,6 @@
         columns = <0>;
         rows = <0>;
         events = <0>;
-    };
-
-    // Bare-bones physical layout for dongle without Studio
-    physical_layout0: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "Default Layout";
-        transform = <&default_transform>;
     };
 };
 

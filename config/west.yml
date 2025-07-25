@@ -21,9 +21,10 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
-    - name: zmk-layout-shift
-      remote: kot149
-      revision: v1
+    # Temporarily disabled for dongle testing
+    # - name: zmk-layout-shift
+    #   remote: kot149
+    #   revision: v1
     - name: prospector-zmk-module
       remote: carrefinho
       revision: main

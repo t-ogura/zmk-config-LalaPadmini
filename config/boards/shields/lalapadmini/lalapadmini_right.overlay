@@ -21,10 +21,23 @@
     status = "okay";
 };
 
+// Disable glidepoint components for peripheral mode
 &glidepoint_listener_R {
-    status = "okay";
-    device = <&glidepoint>;
+    status = "disabled";
 };
 &glidepoint_listener_L {
-    status = "okay";
+    status = "disabled";
+};
+
+// Disable input split components
+&glidepoint_split_L {
+    status = "disabled";
+};
+&glidepoint_split_R {
+    status = "disabled";
+};
+
+// Disable glidepoint device itself for peripheral
+&glidepoint {
+    status = "disabled";
 };

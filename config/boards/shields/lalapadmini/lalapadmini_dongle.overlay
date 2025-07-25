@@ -17,3 +17,29 @@
 &kscan0 {
     status = "disabled";
 };
+
+// Disable all glidepoint components for dongle mode
+&glidepoint {
+    status = "disabled";
+};
+
+&glidepoint_split_L {
+    status = "disabled";
+};
+
+&glidepoint_split_R {
+    status = "disabled";
+};
+
+&glidepoint_listener_L {
+    status = "disabled";
+};
+
+&glidepoint_listener_R {
+    status = "disabled";
+};
+
+// Disable SPI interface used by glidepoint
+&xiao_spi {
+    status = "disabled";
+};

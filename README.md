@@ -8,3 +8,4 @@
 # Trigger build with advertising replacement Fri Jul 25 21:02:49 JST 2025
 # Trigger build with brief advertising burst Fri Jul 25 21:41:48 JST 2025
 # Trigger build with disabled advertising to restore keyboard visibility Fri Jul 25 22:00:21 JST 2025
+# Trigger build with ZMK advertising extension approach Fri Jul 25 22:10:33 JST 2025

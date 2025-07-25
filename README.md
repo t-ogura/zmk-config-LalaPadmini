@@ -7,3 +7,4 @@
 # Trigger build with enhanced BLE debugging Fri Jul 25 19:28:26 JST 2025
 # Trigger build with advertising replacement Fri Jul 25 21:02:49 JST 2025
 # Trigger build with brief advertising burst Fri Jul 25 21:41:48 JST 2025
+# Trigger build with disabled advertising to restore keyboard visibility Fri Jul 25 22:00:21 JST 2025

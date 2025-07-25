@@ -2,3 +2,4 @@
 # Fix struct field definitions
 # Fix variable scope issue
 # Fix advertisement auto-start
+# Add detailed advertisement logging

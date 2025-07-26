@@ -24,10 +24,9 @@ manifest:
     - name: zmk-layout-shift
       remote: kot149
       revision: v1
-    # TEMPORARILY REMOVED - prospector-zmk-module for emergency recovery
-    # - name: prospector-zmk-module
-    #   remote: prospector
-    #   revision: main
-    #   path: modules/prospector-zmk-module
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: main
+      path: modules/prospector-zmk-module
   self:
     path: config

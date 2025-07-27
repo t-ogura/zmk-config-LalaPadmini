@@ -26,6 +26,6 @@ manifest:
       revision: v1
     - name: prospector-zmk-module
       remote: prospector
-      revision: f0dd0a3
+      revision: feature/split-battery-support
   self:
     path: config

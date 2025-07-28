@@ -24,8 +24,8 @@ manifest:
     - name: zmk-layout-shift
       remote: kot149
       revision: v1
-    - name: prospector-zmk-module
+    - name: prospector-zmk-module  
       remote: prospector
-      revision: dd8d321
+      revision: b1cf227
   self:
     path: config

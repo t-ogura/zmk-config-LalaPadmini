@@ -26,6 +26,6 @@ manifest:
       revision: v1
     - name: prospector-zmk-module  
       remote: prospector
-      revision: daba7be
+      revision: feature/yads-widget-integration
   self:
     path: config

@@ -26,6 +26,6 @@ manifest:
       revision: v1
     - name: prospector-zmk-module  
       remote: prospector
-      revision: da1d44e
+      revision: daba7be
   self:
     path: config

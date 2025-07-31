@@ -40,4 +40,4 @@
 "zcbor":"/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/zcbor":"${ZEPHYR_ZCBOR_CMAKE_DIR}"
 "module":"/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk/app/module":"/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk/app/module"
 "keymap-module":"/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk/app/keymap-module":""
-"prospector-zmk-module":"/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module":"/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module"
+"prospector-zmk-module":"/home/ogu/workspace/prospector/zmk-config-LalaPadmini/prospector-zmk-module":"/home/ogu/workspace/prospector/zmk-config-LalaPadmini/prospector-zmk-module"

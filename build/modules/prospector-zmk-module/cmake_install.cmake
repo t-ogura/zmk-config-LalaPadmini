@@ -1,4 +1,4 @@
-# Install script for directory: /home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module
+# Install script for directory: /home/ogu/workspace/prospector/zmk-config-LalaPadmini/prospector-zmk-module
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

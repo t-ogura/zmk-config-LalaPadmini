@@ -44,7 +44,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/src/split/cmake_install.cmake")
   include("/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/src/display/cmake_install.cmake")
   include("/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/src/settings/cmake_install.cmake")
-  include("/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/src/studio/cmake_install.cmake")
 
 endif()
 

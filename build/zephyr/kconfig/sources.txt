@@ -22,11 +22,11 @@
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/hal/telink/tlsr9/ble/vendor/controller/Kconfig
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/gui/lvgl/Kconfig
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/picolibc/zephyr/Kconfig
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module/Kconfig
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module/boards/shields/prospector_adapter/Kconfig.defconfig
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module/boards/shields/prospector_adapter/Kconfig.shield
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module/boards/shields/prospector_scanner/Kconfig.defconfig
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module/boards/shields/prospector_scanner/Kconfig.shield
+/home/ogu/workspace/prospector/zmk-config-LalaPadmini/prospector-zmk-module/Kconfig
+/home/ogu/workspace/prospector/zmk-config-LalaPadmini/prospector-zmk-module/boards/shields/prospector_adapter/Kconfig.defconfig
+/home/ogu/workspace/prospector/zmk-config-LalaPadmini/prospector-zmk-module/boards/shields/prospector_adapter/Kconfig.shield
+/home/ogu/workspace/prospector/zmk-config-LalaPadmini/prospector-zmk-module/boards/shields/prospector_scanner/Kconfig.defconfig
+/home/ogu/workspace/prospector/zmk-config-LalaPadmini/prospector-zmk-module/boards/shields/prospector_scanner/Kconfig.shield
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/zephyr/Kconfig.zephyr
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/zephyr/arch/Kconfig
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/zephyr/arch/arm/Kconfig

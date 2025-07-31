@@ -166,8 +166,8 @@ config ZEPHYR_MODULE_MODULE
 	bool
 	default y
 endmenu
-menu "prospector-zmk-module (/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module)"
-osource "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/prospector-zmk-module/Kconfig"
+menu "prospector-zmk-module (/home/ogu/workspace/prospector/zmk-config-LalaPadmini/prospector-zmk-module)"
+osource "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/prospector-zmk-module/Kconfig"
 config ZEPHYR_PROSPECTOR_ZMK_MODULE_MODULE
 	bool
 	default y

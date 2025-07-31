@@ -57,7 +57,7 @@ CACHED_BOARD:STRING=seeeduino_xiao_ble
 CACHED_CONF_FILE:STRING=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk/app/prj.conf;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk/app/boards/seeeduino_xiao_ble.conf
 
 //Selected shield
-CACHED_SHIELD:STRING=lalapadmini_right
+CACHED_SHIELD:STRING=lalapadmini_left
 
 //Selected snippet
 CACHED_SNIPPET:STRING=
@@ -342,12 +342,6 @@ IMGTOOL:FILEPATH=IMGTOOL-NOTFOUND
 //Selected keymap file
 KEYMAP_FILE:STRING=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/lalapadmini.keymap
 
-//nanopb generator source
-NANOPB_GENERATOR_SOURCE_DIR:PATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/generator
-
-//Path to a file.
-NANOPB_INCLUDE_DIRS:PATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb
-
 //nrfx Directory
 NRFX_DIR:PATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/hal/nordic/nrfx
 
@@ -356,9 +350,6 @@ OPENOCD:FILEPATH=/home/ogu/zephyr-sdk-0.16.5/sysroots/x86_64-pokysdk-linux/usr/b
 
 //Path to a program.
 PAHOLE:FILEPATH=PAHOLE-NOTFOUND
-
-//The Google Protocol Buffers Compiler
-PROTOBUF_PROTOC_EXECUTABLE:FILEPATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/generator/protoc
 
 //Path to a program.
 PUNCOVER:FILEPATH=PUNCOVER-NOTFOUND
@@ -373,7 +364,7 @@ Picolibc_IS_TOP_LEVEL:STATIC=OFF
 Picolibc_SOURCE_DIR:STATIC=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/picolibc
 
 //Selected shield
-SHIELD:STRING=lalapadmini_right
+SHIELD:STRING=lalapadmini_left
 
 //True if toolchain supports newlib
 TOOLCHAIN_HAS_NEWLIB:BOOL=ON
@@ -385,7 +376,7 @@ TOOLCHAIN_HAS_PICOLIBC:BOOL=ON
 TOOLCHAIN_ROOT:STRING=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zephyr
 
 //No help, variable specified on the command line.
-WEST_PYTHON:UNINITIALIZED=/home/ogu/workspace/prospector/zmk-env/bin/python3
+WEST_PYTHON:UNINITIALIZED=/home/ogu/zmk-env/bin/python3
 
 //Zephyr base
 ZEPHYR_BASE:PATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zephyr
@@ -419,27 +410,6 @@ ZephyrBuildConfiguration_DIR:PATH=ZephyrBuildConfiguration_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Zephyr.
 Zephyr_DIR:PATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zephyr/share/zephyr-package/cmake
-
-//Path to a file.
-pb.h__nano_pb_file:FILEPATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb.h
-
-//Path to a file.
-pb_common.c__nano_pb_file:FILEPATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_common.c
-
-//Path to a file.
-pb_common.h__nano_pb_file:FILEPATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_common.h
-
-//Path to a file.
-pb_decode.c__nano_pb_file:FILEPATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_decode.c
-
-//Path to a file.
-pb_decode.h__nano_pb_file:FILEPATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_decode.h
-
-//Path to a file.
-pb_encode.c__nano_pb_file:FILEPATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_encode.c
-
-//Path to a file.
-pb_encode.h__nano_pb_file:FILEPATH=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_encode.h
 
 //Value Computed by CMake
 zmk-layout-shift_BINARY_DIR:STATIC=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/zmk-layout-shift
@@ -577,7 +547,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=156
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=153
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -626,18 +596,10 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_Dtc:INTERNAL=[/home/ogu/zephyr-sdk-0.16.5/sysroots/x86_64-pokysdk-linux/usr/bin/dtc][v1.6.0(1.4.6)]
 //Details about finding GnuLd
 FIND_PACKAGE_MESSAGE_DETAILS_GnuLd:INTERNAL=[/home/ogu/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/../lib/gcc/arm-zephyr-eabi/12.2.0/../../../../arm-zephyr-eabi/bin/ld.bfd][v2.38()]
-//Details about finding Nanopb
-FIND_PACKAGE_MESSAGE_DETAILS_Nanopb:INTERNAL=[/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb][/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_decode.c;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_encode.c;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_common.c;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_decode.c;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_encode.c;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_common.c][/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_decode.h;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_encode.h;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_common.h;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb.h;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_decode.h;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_encode.h;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb_common.h;/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/pb.h][/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/generator][/home/ogu/workspace/prospector/zmk-config-LalaPadmini/modules/lib/nanopb/generator/protoc][v()]
 //Details about finding Python3
-FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/ogu/workspace/prospector/zmk-env/bin/python3][cfound components: Interpreter ][v3.12.3(3.8)]
-//ADVANCED property for variable: NANOPB_GENERATOR_SOURCE_DIR
-NANOPB_GENERATOR_SOURCE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: NANOPB_INCLUDE_DIRS
-NANOPB_INCLUDE_DIRS-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: PROTOBUF_PROTOC_EXECUTABLE
-PROTOBUF_PROTOC_EXECUTABLE-ADVANCED:INTERNAL=1
+FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/home/ogu/zmk-env/bin/python3][cfound components: Interpreter ][v3.12.3(3.8)]
 //West
-WEST:INTERNAL=/home/ogu/workspace/prospector/zmk-env/bin/python3;-m;west
+WEST:INTERNAL=/home/ogu/zmk-env/bin/python3;-m;west
 //a configuration file for the runners Python package
 ZEPHYR_RUNNERS_YAML:INTERNAL=/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/runners.yaml
 //Cached environment variable ZEPHYR_SDK_INSTALL_DIR
@@ -646,24 +608,10 @@ ZEPHYR_SDK_INSTALL_DIR:INTERNAL=/home/ogu/zephyr-sdk-0.16.5
 _Python3_Compiler_REASON_FAILURE:INTERNAL=
 //Development reason failure
 _Python3_Development_REASON_FAILURE:INTERNAL=
-_Python3_EXECUTABLE:INTERNAL=/home/ogu/workspace/prospector/zmk-env/bin/python3
+_Python3_EXECUTABLE:INTERNAL=/home/ogu/zmk-env/bin/python3
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;;cpython-312-x86_64-linux-gnu.so;abi3;/usr/lib/python3.12;/home/ogu/workspace/prospector/zmk-env/lib/python3.12;/home/ogu/workspace/prospector/zmk-env/lib/python3.12/site-packages;/home/ogu/workspace/prospector/zmk-env/lib/python3.12/site-packages
-_Python3_INTERPRETER_SIGNATURE:INTERNAL=b594ab4437bc0bcfde47739cd32941da
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;3;64;;cpython-312-x86_64-linux-gnu.so;abi3;/usr/lib/python3.12;/home/ogu/zmk-env/lib/python3.12;/home/ogu/zmk-env/lib/python3.12/site-packages;/home/ogu/zmk-env/lib/python3.12/site-packages
+_Python3_INTERPRETER_SIGNATURE:INTERNAL=b72363f0c9a59a7cb511e2f0b92ef5e9
 //NumPy reason failure
 _Python3_NumPy_REASON_FAILURE:INTERNAL=
-//ADVANCED property for variable: pb.h__nano_pb_file
-pb.h__nano_pb_file-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pb_common.c__nano_pb_file
-pb_common.c__nano_pb_file-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pb_common.h__nano_pb_file
-pb_common.h__nano_pb_file-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pb_decode.c__nano_pb_file
-pb_decode.c__nano_pb_file-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pb_decode.h__nano_pb_file
-pb_decode.h__nano_pb_file-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pb_encode.c__nano_pb_file
-pb_encode.c__nano_pb_file-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: pb_encode.h__nano_pb_file
-pb_encode.h__nano_pb_file-ADVANCED:INTERNAL=1
 

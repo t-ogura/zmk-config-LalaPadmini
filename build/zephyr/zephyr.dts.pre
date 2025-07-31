@@ -1011,7 +1011,7 @@ zephyr_udc0: &usbd {
     };
 };
 # 0 "<command-line>" 2
-# 1 "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/boards/shields/lalapadmini/lalapadmini_right.overlay" 1
+# 1 "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/boards/shields/lalapadmini/lalapadmini_left.overlay" 1
 # 1 "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/boards/shields/lalapadmini/lalapadmini.dtsi" 1
 # 1 "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk/app/include/dt-bindings/zmk/matrix_transform.h" 1 3 4
 # 2 "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/boards/shields/lalapadmini/lalapadmini.dtsi" 2
@@ -1301,11 +1301,7 @@ zephyr_udc0: &usbd {
         no-smoothing;
     };
 };
-# 2 "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/boards/shields/lalapadmini/lalapadmini_right.overlay" 2
-
-&default_transform {
-    col-offset = <5>;
-};
+# 2 "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/boards/shields/lalapadmini/lalapadmini_left.overlay" 2
 
 &kscan0 {
     col-gpios
@@ -1317,19 +1313,20 @@ zephyr_udc0: &usbd {
         ;
 };
 
-&right_encoder {
+&left_encoder {
     a-gpios = <&gpio1 0 ((1 << 0) | (1 << 4))>;
     b-gpios = <&gpio0 16 ((1 << 0) | (1 << 4))>;
     steps = <24>;
     status = "okay";
 };
 
-&glidepoint_listener_R {
+&glidepoint_split_L {
     status = "okay";
     device = <&glidepoint>;
 };
-&glidepoint_listener_L {
-    status = "okay";
+&glidepoint_split_R {
+    status = "disabled";
+    device = <&glidepoint>;
 };
 # 0 "<command-line>" 2
 # 1 "/home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/lalapadmini.keymap" 1

@@ -27,7 +27,7 @@ empty_file.o: \
  /home/ogu/workspace/prospector/zmk-config-LalaPadmini/zephyr/boards/arm/seeeduino_xiao_ble/seeeduino_xiao_ble-pinctrl.dtsi \
  /home/ogu/workspace/prospector/zmk-config-LalaPadmini/zephyr/boards/arm/seeeduino_xiao_ble/seeed_xiao_connector.dtsi \
  /home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk/app/boards/seeeduino_xiao_ble.overlay \
- /home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/boards/shields/lalapadmini/lalapadmini_right.overlay \
+ /home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/boards/shields/lalapadmini/lalapadmini_left.overlay \
  /home/ogu/workspace/prospector/zmk-config-LalaPadmini/config/boards/shields/lalapadmini/lalapadmini.dtsi \
  /home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk/app/include/dt-bindings/zmk/matrix_transform.h \
  /home/ogu/workspace/prospector/zmk-config-LalaPadmini/zmk/app/include/dt-bindings/zmk/input_transform.h \

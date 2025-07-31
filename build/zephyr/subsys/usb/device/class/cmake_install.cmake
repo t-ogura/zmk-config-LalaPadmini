@@ -37,9 +37,3 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/home/ogu/zephyr-sdk-0.16.5/arm-zephyr-eabi/bin/arm-zephyr-eabi-objdump")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/subsys/usb/device/class/hid/cmake_install.cmake")
-
-endif()
-

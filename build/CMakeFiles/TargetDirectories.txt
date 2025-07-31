@@ -142,9 +142,6 @@
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/subsys/usb/device/CMakeFiles/rebuild_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/subsys/usb/device/class/CMakeFiles/edit_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/subsys/usb/device/class/CMakeFiles/rebuild_cache.dir
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/subsys/usb/device/class/hid/CMakeFiles/subsys__usb__device__class__hid.dir
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/subsys/usb/device/class/hid/CMakeFiles/edit_cache.dir
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/subsys/usb/device/class/hid/CMakeFiles/rebuild_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/subsys/bluetooth/CMakeFiles/edit_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/subsys/bluetooth/CMakeFiles/rebuild_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/subsys/bluetooth/common/CMakeFiles/subsys__bluetooth__common.dir
@@ -201,9 +198,6 @@
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/drivers/clock_control/CMakeFiles/drivers__clock_control.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/drivers/clock_control/CMakeFiles/edit_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/drivers/clock_control/CMakeFiles/rebuild_cache.dir
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/drivers/console/CMakeFiles/drivers__console.dir
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/drivers/console/CMakeFiles/edit_cache.dir
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/drivers/console/CMakeFiles/rebuild_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/drivers/entropy/CMakeFiles/drivers__entropy.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/drivers/entropy/CMakeFiles/edit_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/drivers/entropy/CMakeFiles/rebuild_cache.dir
@@ -247,7 +241,6 @@
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/zmk-rgbled-widget/CMakeFiles/rebuild_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/zmk-layout-shift/CMakeFiles/edit_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/zmk-layout-shift/CMakeFiles/rebuild_cache.dir
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/nanopb/CMakeFiles/modules__nanopb.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/nanopb/CMakeFiles/edit_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/nanopb/CMakeFiles/rebuild_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/acpica/CMakeFiles/edit_cache.dir
@@ -362,7 +355,6 @@
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/module/lib/zmk_debounce/CMakeFiles/..__zmk__app__module__lib__zmk_debounce.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/module/lib/zmk_debounce/CMakeFiles/edit_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/module/lib/zmk_debounce/CMakeFiles/rebuild_cache.dir
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/prospector-zmk-module/CMakeFiles/..__modules__prospector-zmk-module.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/prospector-zmk-module/CMakeFiles/edit_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/modules/prospector-zmk-module/CMakeFiles/rebuild_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/zephyr/kernel/CMakeFiles/kernel.dir
@@ -392,5 +384,3 @@
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/src/display/CMakeFiles/rebuild_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/src/settings/CMakeFiles/edit_cache.dir
 /home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/src/settings/CMakeFiles/rebuild_cache.dir
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/src/studio/CMakeFiles/edit_cache.dir
-/home/ogu/workspace/prospector/zmk-config-LalaPadmini/build/src/studio/CMakeFiles/rebuild_cache.dir

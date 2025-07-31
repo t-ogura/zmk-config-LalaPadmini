@@ -19,9 +19,9 @@ manifest:
     # - name: cirque-input-module
     #   remote: ShiniNet
     #   revision: main
-    # - name: zmk-rgbled-widget
-    #   remote: caksoylar
-    #   revision: main
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
     - name: zmk-layout-shift
       remote: kot149
       revision: v1

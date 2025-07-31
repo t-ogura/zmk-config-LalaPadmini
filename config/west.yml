@@ -15,10 +15,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    # TEMPORARILY DISABLED FOR BLE API TEST
-    # - name: cirque-input-module
-    #   remote: ShiniNet
-    #   revision: main
+    - name: cirque-input-module
+      remote: ShiniNet
+      revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main

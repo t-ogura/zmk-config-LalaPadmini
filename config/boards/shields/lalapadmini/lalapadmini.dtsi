@@ -68,16 +68,17 @@
     //     };
     // };
 
-    glidepoint_listener_R: glidepoint_listener_R {
-        compatible = "zmk,input-listener";
-        status = "disabled";
-        // device = <&glidepoint_split_R>; // TEMPORARILY DISABLED
-    };
-    glidepoint_listener_L: glidepoint_listener_L {
-        compatible = "zmk,input-listener";
-        status = "disabled";
-        // device = <&glidepoint_split_L>; // TEMPORARILY DISABLED
-    };
+    // TEMPORARILY DISABLED FOR BLE API TEST
+    // glidepoint_listener_R: glidepoint_listener_R {
+    //     compatible = "zmk,input-listener";
+    //     status = "disabled";
+    //     device = <&glidepoint_split_R>;
+    // };
+    // glidepoint_listener_L: glidepoint_listener_L {
+    //     compatible = "zmk,input-listener";
+    //     status = "disabled";
+    //     device = <&glidepoint_split_L>;
+    // };
 };
 
 // SPI

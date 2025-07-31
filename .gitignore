@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+.west/
+zephyr/
+modules/
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db

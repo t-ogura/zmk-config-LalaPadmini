@@ -26,6 +26,6 @@ manifest:
       revision: v1
     - name: prospector-zmk-module  
       remote: prospector
-      revision: 2bd94b8
+      revision: feature/layer-event-listener
   self:
     path: config
